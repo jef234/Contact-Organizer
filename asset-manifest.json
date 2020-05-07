@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Contact-Organizer/static/css/main.5facb584.chunk.css",
+    "main.js": "/Contact-Organizer/static/js/main.06055d4f.chunk.js",
+    "main.js.map": "/Contact-Organizer/static/js/main.06055d4f.chunk.js.map",
+    "runtime-main.js": "/Contact-Organizer/static/js/runtime-main.7f4a9589.js",
+    "runtime-main.js.map": "/Contact-Organizer/static/js/runtime-main.7f4a9589.js.map",
+    "static/css/2.6f18c3fb.chunk.css": "/Contact-Organizer/static/css/2.6f18c3fb.chunk.css",
+    "static/js/2.55b9a00e.chunk.js": "/Contact-Organizer/static/js/2.55b9a00e.chunk.js",
+    "static/js/2.55b9a00e.chunk.js.map": "/Contact-Organizer/static/js/2.55b9a00e.chunk.js.map",
+    "index.html": "/Contact-Organizer/index.html",
+    "precache-manifest.8f74a76def36e90b4111697e76a20be8.js": "/Contact-Organizer/precache-manifest.8f74a76def36e90b4111697e76a20be8.js",
+    "service-worker.js": "/Contact-Organizer/service-worker.js",
+    "static/css/2.6f18c3fb.chunk.css.map": "/Contact-Organizer/static/css/2.6f18c3fb.chunk.css.map",
+    "static/css/main.5facb584.chunk.css.map": "/Contact-Organizer/static/css/main.5facb584.chunk.css.map",
+    "static/js/2.55b9a00e.chunk.js.LICENSE.txt": "/Contact-Organizer/static/js/2.55b9a00e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Contact-Organizer/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f4a9589.js",
+    "static/css/2.6f18c3fb.chunk.css",
+    "static/js/2.55b9a00e.chunk.js",
+    "static/css/main.5facb584.chunk.css",
+    "static/js/main.06055d4f.chunk.js"
+  ]
+}
