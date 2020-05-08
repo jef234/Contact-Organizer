@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import TextInputGroup from '../Layout/TextInputGroup'
-import axios from 'axios'
 import { connect } from 'react-redux'
 import { addContact } from '../../actions/contactActions'
 import PropTypes from 'prop-types'
@@ -38,8 +37,7 @@ class AddContact extends Component {
             phone
         }
 
-        const res = await axios.post("https://jsonplaceholder.typicode.com/users", newContact)
-        this.props.addContact(res.data)
+        this.props.addContact(newContact)
 
         this.setState({
             name: '',

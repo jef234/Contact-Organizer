@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
-import axios from 'axios'
 import { connect } from 'react-redux'
 import { deleteContact } from '../../actions/contactActions'
 
@@ -15,7 +14,6 @@ class Contact extends Component {
     }
 
     onDeleteClick = async (id) => {
-        await axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`)
         this.props.deleteContact(id)
     }
 
