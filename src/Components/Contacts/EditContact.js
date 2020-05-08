@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import TextInputGroup from '../Layout/TextInputGroup'
 import axios from 'axios'
+import { connect } from 'react-redux'
+import { editContact } from '../../actions/contactActions'
+import PropTypes from 'prop-types'
 
 class EditContact extends Component {
     state = {
@@ -40,6 +43,7 @@ class EditContact extends Component {
 
         const { id } = this.props.match.params
         const res = await axios.put(`https://jsonplaceholder.typicode.com/users/${id}`, newContact)
+        this.props.editContact(res.data)
 
         this.setState({
             name: '',
@@ -102,4 +106,8 @@ class EditContact extends Component {
     }
 }
 
-export default EditContact
+EditContact.protoType = {
+    editContact: PropTypes.func.isRequired
+}
+
+export default connect(null, { editContact })(EditContact)
